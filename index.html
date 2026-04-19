@@ -9,22 +9,60 @@
 </head>
 
 <body>
-    <!-- ANNOUNCEMENT HEADER -->
-    <div class="announcement-header">
-        <div class="wrapper announcement-header__inner">
+
+
+    <!-- ===== ANNOUNCEMENT BAR ===== -->
+    <div class="announcement-bar">
+        <div class="wrapper announcement-bar__inner">
 
             <p>
                 Sign up and get 20% off to your first order.
                 <a href="#">Sign Up Now</a>
             </p>
 
-            <button class="announcement-header__close" aria-label="Close announcement">
+            <button class="announcement-bar__close" aria-label="Close announcement">
                 <img src="images/close.svg" alt="">
             </button>
             <!-- aria-label="Close announcement" is an accessibility label. It gives a readable name to an element (usually a button/icon) when there is no visible text. -->
 
         </div>
     </div>
+
+
+    <!-- ===== HEADER ===== -->
+    <header class="header">
+        <div class="wrapper header__inner">
+            <div class="header__logo">
+                <img src="images/brand-logo.svg" alt="Store Logo">
+            </div>
+
+            <nav class="header__nav">
+                <ul>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">On Sale</a></li>
+                    <li><a href="#">New Arrivals</a></li>
+                    <li><a href="#">Brands</a></li>
+                </ul>
+            </nav>
+
+            <div class="header__search">
+                <img src="images/search.svg" alt="">
+                <input type="search" placeholder="Search for products...">
+            </div>
+
+            <div class="header__actions">
+                <button class="header__cart" aria-label="Cart">
+                    <img src="images/cart.svg" alt="">
+                </button>
+
+                <button class="header__account" aria-label="Account">
+                    <img src="images/account.svg" alt="">
+                </button>
+            </div>
+        </div>
+    </header>
+
+
 </body>
 
 </html>
