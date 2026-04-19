@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+/* GLOBAL RESET */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.6rem;
+    color: #000;
+    background-color: #FFF;
+}
+
+/* REUSABLE */
+.wrapper {
+    width: 124rem;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+
+/* ANNOUNCEMENT HEADER */
+.announcement-header {
+    background: #000;
+    color: #fff;
+    font-size: 1.4rem;
+}
+
+.announcement-header__inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding: 1rem 0;
+    /* background-color: red; */
+}
+
+.announcement-header p {
+    text-align: center;
+}
+
+.announcement-header a {
+    color: #fff;
+    font-weight: 600;
+}
+
+.announcement-header__close {
+    position: absolute;
+    right: 0;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
