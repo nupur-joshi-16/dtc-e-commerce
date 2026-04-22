@@ -44,6 +44,16 @@ button {
     font-weight: 600;
 }
 
+.btn-outline {
+    height: 5.2rem;
+    background-color: #fff;
+    padding: 0 6.4rem;
+    border-radius: 4rem;
+    color: #000;
+    font-weight: 600;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
 ul {
     list-style: none;
 }
@@ -231,4 +241,99 @@ a {
     align-items: center;
     justify-content: space-between;
     gap: 10rem;
+}
+
+/* =========================
+   NEW ARRIVALS
+========================= */
+
+.new-arrivals {
+    width: 100%;
+    text-align: center;
+}
+
+.new-arrivals__inner {
+    padding: 7.2rem 0 6.4rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.new-arrivals__title {
+    font-size: 4.8rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #000;
+    letter-spacing: -0.04em;
+    margin-bottom: 5.6rem;
+}
+
+.new-arrivals__products {
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 3.6rem;
+}
+
+.product-card {
+    flex: 1;
+    max-width: 29.5rem;
+    text-align: left;
+}
+
+.product-card__img {
+    width: 100%;
+    aspect-ratio: 295 / 298;
+    background-color: #f0eeed;
+    border-radius: 2rem;
+    overflow: hidden;
+    margin-bottom: 1.6rem;
+}
+
+.product-card__img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.product-card__name {
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 1.3;
+    margin-bottom: 0.8rem;
+}
+
+.product-card__price {
+    font-size: 2.4rem;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+    line-height: 1.2;
+}
+
+
+/* =========================
+   TOP SELLING
+========================= */
+
+.top-selling {
+    width: 100%;
+    text-align: center;
+}
+
+.top-selling__inner {
+    padding: 7.2rem 0 6.4rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.top-selling__title {
+    font-size: 4.8rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #000;
+    letter-spacing: -0.04em;
+    margin-bottom: 5.6rem;
+}
+
+.top-selling__products {
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 3.6rem;
 }
