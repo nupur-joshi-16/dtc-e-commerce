@@ -125,6 +125,7 @@ a {
     position: relative;
     /* background-color: bisque; */
     gap: 4rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .header__nav ul {
@@ -336,4 +337,38 @@ a {
     display: flex;
     gap: 2rem;
     margin-bottom: 3.6rem;
+}
+
+/* =========================
+   BREADCRUMB
+========================= */
+
+.breadcrumb {
+    margin: 2.4rem 0;
+}
+
+.breadcrumb__list {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    list-style: none;
+}
+
+.breadcrumb__item {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+.breadcrumb__item:not(:last-child)::after {
+    content: ">";
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.breadcrumb__link {
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.breadcrumb__current {
+    color: #000;
 }
